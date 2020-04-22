@@ -51,7 +51,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr *ngFor='let x of userdetails'>
             <th scope="row"><input type="radio"></th>
             <td>
                 <div class="row  justify-content-start">
@@ -59,14 +59,14 @@
                         <img src="../../../../../assets/tables/uiface.png" alt="uiface">
                     </div>
                     <div class="col-md-9 ">
-                        <h2 class="m-0">Technical Univarsity of Munich</h2>
-                        <span>Active 3 days ago</span>
+                        <h2 class="m-0">{{x.name}}</h2>
+                        <span>{{x.activeDate}}</span>
                     </div>
                 </div>
             </td>
-            <td>976</td>
-            <td>578</td>
-            <td>16 sep 2018</td>
+            <td>{{x.tutors}}</td>
+            <td>{{x.students}}</td>
+            <td>{{x.addedon}}</td>
             <td><img src="../../../../../assets/tables/flag.png" alt="flag">HuSTON</td>
            <!-- block  -->
             <!-- <td>
