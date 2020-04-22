@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { TabuleComponent } from './navbar/navbarcomponents/dashboard/tabule/tabule.component';
 import { CountCardComponent } from './navbar/navbarcomponents/dashboard/count-card/count-card.component';
 import { GraphChartComponent } from './navbar/navbarcomponents/dashboard/graph-chart/graph-chart.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { GraphChartComponent } from './navbar/navbarcomponents/dashboard/graph-c
     AppRoutingModule,
     BrowserAnimationsModule,
     DemoMaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ChartsModule
     
   ],
   providers: [],

@@ -1,3 +1,6 @@
+*{
+    color: black;
+}
 tbody:hover{
     background-color: white;
 }
@@ -6,4 +9,7 @@ thead{
 }
 .menuicon{
     color: #ef972c;
+}
+a:hover{
+    color:#ef972c ;
 }

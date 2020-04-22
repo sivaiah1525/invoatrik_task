@@ -17,22 +17,27 @@ export class CountCardComponent implements OnInit {
       {
         avaragecount: "85k",
         name: 'institutions Added',
-        image: 'src/assets/cardimages/count-1.svg',
+        image: "https://vere-360.web.app/assets/dashboard/count-1.svg",
+        bgcolor :''
+
       },
       {
         avaragecount: '754k',
         name: 'Total studant',
-        image: "https://vere-360.web.app/assets/dashboard/count-2.svg",
+        image: "https://vere-360.web.app/assets/dashboard/count-4.svg",
+        bgcolor : '#ef972c'
       },
       {
         avaragecount: '306k',
         name: 'Total Tutors',
-        image: "src/assets/cardimages/count-3.svg",
+        image: "https://vere-360.web.app/assets/dashboard/count-1.svg",
+        bgcolor :''
       },
       {
         avaragecount: '13k',
         name: 'Total Added ',
-        image: "src/assets/cardimages/count-4.svg",
+        image: "https://vere-360.web.app/assets/dashboard/count-4.svg",
+        bgcolor:''
       }
     ]
   }
