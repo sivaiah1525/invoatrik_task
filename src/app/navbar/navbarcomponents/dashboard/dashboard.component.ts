@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { UserserviceService } from 'src/app/service/userservice.service';
 
 declare var Pikaday: any;
 
@@ -10,6 +11,7 @@ declare var Pikaday: any;
 export class DashboardComponent implements OnInit {
   formdatePicker: any;
   todatePicker :any;
+  userdata:any
 
   
   @ViewChild('formdateField', { static: true }) formdateField: ElementRef;
@@ -17,7 +19,9 @@ export class DashboardComponent implements OnInit {
   @ViewChild('fromdate', { static: true }) fromdate: ElementRef;
   @ViewChild('todate', { static: true }) todate: ElementRef;
 
-  constructor() { }
+  constructor(private service :UserserviceService) {
+    this.getuser()
+   }
 
 
 
@@ -32,11 +36,12 @@ export class DashboardComponent implements OnInit {
       trigger: this.todate.nativeElement,
       format: 'D/M/YYYY',
     })
-
-
-
-
   }
 
+getuser(){
+this.userdata=this.service.AllGetuder().then(data => console.log(data));
+console.log('sivaiah')
+console.log(this.userdata);
+}
 
 }
