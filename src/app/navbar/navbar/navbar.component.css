@@ -1,0 +1,35 @@
+*{
+  color: white;
+}
+.navbarsection{
+    background-color:#ef972c;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    text-align: center;
+  }
+  .persionstatus{
+    max-width:50%;
+    border-radius: 50%;
+  
+}
+.logoicon{
+  max-width:100%;
+  padding: unset;
+}
+
+
+
+
+

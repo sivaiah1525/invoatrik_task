@@ -1,0 +1,52 @@
+<!-- navbarsection  -->
+<app-navbar></app-navbar>
+<!-- dashboard section  -->
+<section class="dashboardsection">
+    <div class="container">
+        <div class="row">     
+        </div>
+        <div class="row pt-3 justify-content-around">
+            <div class="col-md-6">
+                <span class="jamesname">Hi James</span><br>
+                <span class="subtitle">Welcome to VERE360 admin dashboard</span>
+            </div>
+            <div class="col-md-6">
+                <div class="row justify-content-end">
+                    <div class="col-md-6">
+                        <div class="flex-container">
+                            <div>DATE :</div>
+                            <div><button #fromdate class="frombutton">- from - v</button></div>
+                            <div><button #todate class="tobutton">- To - v</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- dashboard cardes  -->
+        
+          <app-count-card></app-count-card>
+ 
+        <!-- Students Vs Universisties chrates  -->
+
+     <app-graph-chart></app-graph-chart>
+
+     <!-- Recently Added Institution -->
+     <div class="row pt-3">
+        <div class="col">
+            <h2 class="Addedname">Recently Added Institution</h2>
+            <p class="subtitle">Welcome to VERE360 admin dashboard</p>
+        </div>
+    </div>
+
+        <!-- dashboard tatule  -->
+        <div class="row pt-3">
+            <div class="col">
+          <app-tabule></app-tabule>
+            </div>
+        </div>
+    </div>
+</section>
+
+<input #formdateField type="hidden"  />
+<input #todateField type="hidden" />
+

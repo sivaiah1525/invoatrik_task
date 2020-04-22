@@ -1,0 +1,22 @@
+.title{
+    font-weight: 800;
+}
+.subtitle{
+    font-size: 10px;
+}
+.unibutton,.frombutton,.tobutton{
+    border: unset;
+    outline: unset;
+    border-radius: 50px;
+    background-color:#fae0bf;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    text-align: center;
+    
+  }

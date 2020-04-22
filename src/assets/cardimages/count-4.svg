@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="65px" viewBox="0 0 54 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>21CF2197-A7A2-40FF-8231-E55B13DF5A4C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="FinalDirection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0.dashboard.tint.shade" transform="translate(-1209.000000, -207.000000)">
+            <g id="Group-26" transform="translate(158.000000, 104.000000)">
+                <g id="dashboard-overview">
+                    <g id="box-copy-3" transform="translate(863.000000, 79.000000)">
+                        <g id="Group-10" transform="translate(188.000000, 24.000000)">
+                            <circle id="Oval" fill="#EF972A" opacity="0.149999991" cx="27" cy="27" r="27"></circle>
+                            <g id="content-360deg" transform="translate(11.000000, 34.000000)" stroke="#EF972A" stroke-width="1.5">
+                                <path d="M20.9654442,26.0945455 C19.479468,28.5177273 17.5081612,30 15.3409091,30 C10.7198089,30 6.9731405,23.2840909 6.9731405,15 C6.9731405,6.71590909 10.7198089,0 15.3409091,0 C19.9620093,0 23.7086777,6.71590909 23.7086777,15 C23.7072693,16.0988186 23.6374086,17.1965332 23.4994835,18.2870455" id="Path" stroke-linecap="round"></path>
+                                <ellipse id="Oval" stroke-linecap="square" cx="15.3409091" cy="15" rx="2.7892562" ry="2.72727273"></ellipse>
+                                <path d="M3.99421488,9.50045455 C1.51596074,10.9534091 0,12.8809091 0,15 C0,19.5184091 6.86854339,23.1818182 15.3409091,23.1818182 C23.8132748,23.1818182 30.6818182,19.5184091 30.6818182,15 C30.6818182,10.4815909 23.8132748,6.81818182 15.3409091,6.81818182 C14.2171173,6.81955886 13.0944547,6.88786717 11.9791581,7.02272727" id="Path" stroke-linecap="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
