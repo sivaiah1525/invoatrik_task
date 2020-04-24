@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit {
   @ViewChild('todate', { static: true }) todate: ElementRef;
 
   constructor(private service :UserserviceService) {
-    this.getuser()
+    
    }
 
 
@@ -37,11 +37,5 @@ export class DashboardComponent implements OnInit {
       format: 'D/M/YYYY',
     })
   }
-
-getuser(){
-this.userdata=this.service.AllGetuder().then(data => console.log(data));
-console.log('sivaiah')
-console.log(this.userdata);
-}
 
 }

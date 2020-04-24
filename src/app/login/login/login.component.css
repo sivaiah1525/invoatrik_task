@@ -4,8 +4,10 @@
 }
 .loginsection{
     background-image: url('../../../assets/loginbg.jpg');
-    height: 100vh;
+    /* height: 100vh; */
     z-index:-0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .formsection{
     padding:49% 0 0 0;
@@ -47,6 +49,4 @@ mat-form-field{
 }
 .para{
     font-size: 12px;
-    line-height:20px;
-
 }

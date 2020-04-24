@@ -8,6 +8,7 @@
     border: unset;
     outline: unset;
     border-radius: 50px;
+    padding: 3px;
     background-color:#fae0bf;
 }
 .flex-container {
